@@ -1,0 +1,52 @@
+*{
+    background-color: wheat;
+    padding: 0;
+    border: 0;
+}
+h1{
+    text-align: justify;
+    color: rgb(77, 6, 41);
+}
+h1:hover{
+    color: blue;
+    background-color: black;
+    width: fit-content;
+}
+.about-me{
+    display: inline-block;
+    width: 320px;
+    height: 320px;
+    border: 5px solid whitesmoke;
+    overflow: auto;
+}
+h2{
+    color: brown;
+    text-align: justify;
+    font-weight: bold;
+}
+h2:hover{
+    color: blue;
+}
+.skill-set{
+    display: inline-block;
+    width: 320px;
+    height: 320px;
+    border: 5px solid whitesmoke;
+    overflow: auto;
+}
+section{display: flex;
+    overflow: hidden;
+    height: auto;
+    width: fit-content;
+    border: 1px solid blue;
+}
+h3{
+    color: brown;
+    font-size: 15;
+}
+a{
+    color: blue;
+}
+a:hover{
+    color: orangered;
+}
